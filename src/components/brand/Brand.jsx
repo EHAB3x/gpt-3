@@ -1,8 +1,9 @@
-import './brand.css'
-import { google, slack, atlassian, dropbox, shopify } from './imports'
+import './brand.css';
+import { google, slack, atlassian, dropbox, shopify } from './imports';
 const Brand = () => {
+  // Also here the way of "Array" instead of reapting the code, it will help you when you need to edit the style for example.
   return (
-    <div className='gpt3__brand '>
+    <div className="gpt3__brand ">
       <div>
         <img src={google} alt="google" />
       </div>
@@ -23,7 +24,7 @@ const Brand = () => {
         <img src={shopify} alt="shopify" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Brand
+export default Brand;
